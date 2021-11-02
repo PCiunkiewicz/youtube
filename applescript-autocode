@@ -1,0 +1,14 @@
+on run {input, parameters}
+	tell application "Visual Studio Code" to activate
+	set codeContent to get the clipboard
+	set text item delimiters to "    "
+	set textItems to text items of codeContent
+	set text item delimiters to tab
+	set printContent to textItems as string
+
+	repeat with aChar in printContent
+		if aChar does not contain tab then delay 0.06
+		if aChar contains return then delay 0.15
+		tell application "System Events" to keystroke aChar
+	end repeat
+end run

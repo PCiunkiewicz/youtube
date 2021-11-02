@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.autoIndent": "none",
+		"editor.acceptSuggestionOnEnter": "off",
+		"editor.autoClosingQuotes": "never",
+		"editor.inlineSuggest.enabled": false,
+		"editor.quickSuggestions": false,
+		"editor.suggestOnTriggerCharacters": false,
+		"editor.wordBasedSuggestions": false,
+		"editor.quickSuggestionsDelay": 1000000,
+		"editor.parameterHints.enabled": false
+	}
+}
